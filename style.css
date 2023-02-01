@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body, .home{
+    background-color: #ff6633;
+    overflow: auto;
+    margin: 0;
+}
+
+body, .kelas {
+    background-color: #bd4e2a;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.materi a {
+    max-height: 660px;
+    background-color: #ff6633;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.materi {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img, .icon {
+    max-width: 300px;
+}
+
+img, .bento {
+    max-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+    .materi {
+        width: 100vw;
+    }
+    
+    img, .bento {
+        width: 100vw;
+    }
+}
