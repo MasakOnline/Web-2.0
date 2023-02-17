@@ -48,7 +48,7 @@ img, .icon {
     max-width: 300px;
 }
 
-img, .bento {
+img, .foto {
     max-width: 500px;
 }
 
@@ -57,7 +57,7 @@ img, .bento {
         width: 100vw;
     }
     
-    img, .bento {
+    img, .foto {
         width: 100vw;
     }
 }
