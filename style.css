@@ -20,7 +20,7 @@ body, .kelas {
 }
 
 .materi a {
-    max-height: 660px;
+    /* max-height: 770px; */
     background-color: #ff6633;
     text-decoration: none;
 }
