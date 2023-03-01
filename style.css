@@ -20,9 +20,9 @@ body, .kelas {
 }
 
 .materi a {
-    /* max-height: 770px; */
-    background-color: #ff6633;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
 }
 
 .content {
@@ -37,6 +37,7 @@ body, .kelas {
 .materi {
     width: 500px;
     height: 100%;
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,12 +45,43 @@ body, .kelas {
     align-items: center;
 }
 
-img, .icon {
+.scroll {
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    left: 409px;
+    z-index: 1;
+    top: 30vh;
+}
+
+#klik {
+    position: fixed;
+    z-index: 1;
+    max-width: 5.7em;
+}
+
+.icon {
     max-width: 300px;
 }
 
-img, .foto {
+img {
     max-width: 500px;
+    z-index: 0;
+}
+
+.container-lain {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-lain a {
+    width: 50%;
+    height: 50%;
+}
+
+a img {
+    width: 100%;
 }
 
 @media screen and (max-width: 500px) {
@@ -57,7 +89,25 @@ img, .foto {
         width: 100vw;
     }
     
-    img, .foto {
+    img {
         width: 100vw;
     }
+
+    #klik {
+        position: fixed;
+        top: 30vh;
+        right: 0vw;
+        max-width: 18vw;
+        z-index: 1;
+    }
+
+    /* .scroll{
+        width: 500px;
+        height: fit-content;
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        z-index: 1;
+        bottom: 30vh;
+    } */
 }
