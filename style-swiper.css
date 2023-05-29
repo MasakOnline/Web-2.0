@@ -1,0 +1,86 @@
+@import url(https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css);
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee; */
+}
+
+.swiper{
+  width: 540px;
+  height: 360px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fffaec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root {
+  --swiper-navigation-size: 25px;
+  --swiper-navigation-color: #000;
+  --swiper-pagination-bottom: 0px;
+  --swiper-pagination-bullet-size: 5.5px;
+  --swiper-navigation-sides-offset: 17px;
+  --swiper-pagination-bullet-inactive-opacity: 0.3;
+}
+
+.swiper-button-next {
+  padding-left: 120px;
+  padding-bottom: 80px;
+  padding-top: 70px;
+  margin-top: -85px;
+  opacity: 0.5;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.swiper-button-prev {
+  padding-right: 120px;
+  padding-bottom: 80px;
+  padding-top: 70px;
+  margin-top: -85px;
+  opacity: 0.5;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.swiper-pagination {
+  background-color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ff6633;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets {
+  height: 15px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0px 3.3px 2px;
+}
+
+@media screen and (max-width: 540px) {
+  .swiper{
+    width: 100vw;
+    height: auto;
+  }
+}
