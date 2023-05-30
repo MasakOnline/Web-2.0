@@ -38,6 +38,14 @@ a.header {
     color: #000;
 }
 
+p.guide-small {
+    font-weight: 400;
+    font-size: 0.76rem;
+    text-align: center;
+    padding: 2px 0px 3px;
+    background-color: #fff;
+}
+
 h2 {
     font-weight: 700;
     font-size: 1.5rem;
