@@ -46,13 +46,30 @@ p.guide-small {
     background-color: #fff;
 }
 
+#kelas {
+    padding-bottom: 4px;
+    border-bottom: solid #afafaf 1px;
+}
+
 h2 {
     font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
     background-color: #fff;
-    padding-bottom: 4px;
-    border-bottom: solid #afafaf 1px;
+}
+
+.button-head {
+    background-color: #ff6633;
+    margin: 3px 0px 4px;
+    padding: 3px 9px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+a.button-head {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #materi {
