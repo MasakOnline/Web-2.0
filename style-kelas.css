@@ -93,6 +93,17 @@ ol {
     font-size: 0.9rem;
 }
 
+.cross {
+    color: #8a8a8a;
+    text-decoration: line-through;
+    text-decoration-color: #ff6633;
+}
+
+.under-text {
+    font-weight: 400;
+    font-size: 0.82rem;
+}
+
 ul {
     list-style-position: inside;
     list-style-type: disc;
